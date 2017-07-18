@@ -9,3 +9,4 @@ gem 'lita-slack'
 # gem 'lita-karma'
 
 gem 'lita-xkcd'
+gem 'lita-keepalive'

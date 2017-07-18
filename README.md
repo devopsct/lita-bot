@@ -20,3 +20,4 @@ Secrets are managed through [Torus CLI](http://torus.sh).
   * `TORUS_TOKEN_SECRET`: Machine Token Secret
 9. Add the following secrets to Torus: `torus set -e heroku <ENV var> <value>`
   * `LITA_SLACK_TOKEN` - `xoxb-YOUR-TOKEN-HERE`
+  * `LITA_HEROKU_KEEPALIVE_URL` - Your Heroku URL (`heroku apps:info -s | grep web.url | cut -d= -f2`)
