@@ -30,6 +30,8 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.7.1)
       multi_json
+    lita-xkcd (0.0.6)
+      lita (>= 2.2)
     multi_json (1.12.1)
     multipart-post (2.0.0)
     puma (3.9.1)
@@ -51,6 +53,7 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-slack
+  lita-xkcd
 
 BUNDLED WITH
    1.15.1
