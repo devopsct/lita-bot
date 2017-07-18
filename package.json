@@ -1,0 +1,12 @@
+{
+  "name": "devops-lita",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Dave Long <dlong@cagedata.com>",
+  "dependencies": {
+    "torus-cli": "^0.24.1"
+  },
+  "engines": {
+    "node": "8.1.3"
+  }
+}
